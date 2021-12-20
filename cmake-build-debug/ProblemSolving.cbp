@@ -37,6 +37,46 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zeeshanshaikh/CLionProjects/ProblemSolving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Fib">
+				<Option output="/Users/zeeshanshaikh/CLionProjects/ProblemSolving/cmake-build-debug/Fib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zeeshanshaikh/CLionProjects/ProblemSolving/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zeeshanshaikh/CLionProjects/ProblemSolving/cmake-build-debug/Makefile&quot;  VERBOSE=1 Fib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zeeshanshaikh/CLionProjects/ProblemSolving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zeeshanshaikh/CLionProjects/ProblemSolving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zeeshanshaikh/CLionProjects/ProblemSolving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Fib/fast">
+				<Option output="/Users/zeeshanshaikh/CLionProjects/ProblemSolving/cmake-build-debug/Fib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zeeshanshaikh/CLionProjects/ProblemSolving/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zeeshanshaikh/CLionProjects/ProblemSolving/cmake-build-debug/Makefile&quot;  VERBOSE=1 Fib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zeeshanshaikh/CLionProjects/ProblemSolving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zeeshanshaikh/CLionProjects/ProblemSolving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zeeshanshaikh/CLionProjects/ProblemSolving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="ProblemSolving">
 				<Option output="/Users/zeeshanshaikh/CLionProjects/ProblemSolving/cmake-build-debug/ProblemSolving" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zeeshanshaikh/CLionProjects/ProblemSolving/cmake-build-debug"/>
@@ -78,6 +118,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/zeeshanshaikh/CLionProjects/ProblemSolving/DP/Fibonacci.cpp">
+			<Option target="Fib"/>
+		</Unit>
 		<Unit filename="/Users/zeeshanshaikh/CLionProjects/ProblemSolving/main.cpp">
 			<Option target="ProblemSolving"/>
 		</Unit>

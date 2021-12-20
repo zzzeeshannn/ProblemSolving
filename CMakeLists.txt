@@ -4,3 +4,5 @@ project(ProblemSolving)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(ProblemSolving main.cpp)
+
+add_executable(Fib DP/Fibonacci.cpp)
